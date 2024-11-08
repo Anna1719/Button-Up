@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  margin: 35px;
+}
+
+.scroll-to-start {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border: solid #000000af 2px;
+  padding: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #034bb185;
+  }
+}
